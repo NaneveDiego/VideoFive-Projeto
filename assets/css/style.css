@@ -135,7 +135,7 @@ header {
 .navbar .search-form .search-input {
   width: 100%;
   height: 100%;
-  padding: 0 40px 0 1rem; /* Add right padding to make space for the icon */
+  padding: 0 40px 0 1rem; 
   outline: none;
   font-size: 1rem;
   border-radius: 3.1rem 0 0 3.1rem;
@@ -144,9 +144,9 @@ header {
 .keyboard-icon {
   position: absolute;
   right: 12px;
-  height: 12px; /* Adjust size as needed */
+  height: 12px; 
   width: auto;
-  cursor: pointer; /* Makes the icon not interfere with input field interaction */
+  cursor: pointer;
 }
 .navbar .search-form .search-button {
   width: auto;
