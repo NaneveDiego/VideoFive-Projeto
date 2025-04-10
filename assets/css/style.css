@@ -264,9 +264,6 @@ header {
 
 .thumb {
   margin-right: 8px;
-}
-
-.thumb img {
   border-radius: 8px;
   width: 168px;
   height: 94px;
