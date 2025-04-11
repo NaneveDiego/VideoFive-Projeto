@@ -292,8 +292,8 @@ header {
 }
 
 #thumb1:hover {
-  background-size: contain;
-  background-image: url(https://i.ytimg.com/an_webp/qRbEac3MsZ0/mqdefault_6s.webp?du=3000&sqp=CIGk4L8G&rs=AOn4CLARWUKUBvVv2A3AnMfUVHDyoJ3cvw);
+  background-size: cover;
+  background-image: url(https://i.ytimg.com/an_webp/qRbEac3MsZ0/mqdefault_6s.webp?du=3000&sqp=CK_f4b8G&rs=AOn4CLCDb8TDGD7ScfP3IjpmPHJCpWkTdg);
 }
 
 #thumb2{
@@ -301,8 +301,8 @@ header {
 }
 
 #thumb2:hover{
-  background-size: contain;
-  background-image: url(https://i.ytimg.com/an_webp/jiSYKf-bAKY/mqdefault_6s.webp?du=3000&sqp=CM6R4L8G&rs=AOn4CLC7CYvbsqWjnJ2ccj8J87nOShJVIQ);
+  background-size: cover;
+  background-image: url(https://i.ytimg.com/an_webp/jiSYKf-bAKY/mqdefault_6s.webp?du=3000&sqp=CIzW4b8G&rs=AOn4CLBbpvhkzO6zpp-PxzlKyIn2qc9kaw);
 }
 
 #thumb3{
@@ -310,7 +310,7 @@ header {
 }
 
 #thumb3:hover{
-  background-size: contain;
+  background-size: cover;
   background-image: url(https://i.ytimg.com/an_webp/2plo2j-T0OU/mqdefault_6s.webp?du=3000&sqp=CJTA4L8G&rs=AOn4CLCOfhj-zt91wDne0VR7H-HD8gBJmA);
 }
 
@@ -319,7 +319,7 @@ header {
 }
 
 #thumb4:hover{
-  background-size: contain;
+  background-size: cover;
   background-image: url(https://i.ytimg.com/an_webp/cmStFxhidWY/mqdefault_6s.webp?du=3000&sqp=CLKR4L8G&rs=AOn4CLAwoEED2A3aBN3hoWul9oXgbmy30Q);
 }
 
@@ -328,7 +328,7 @@ header {
 }
 
 #thumb5:hover{
-  background-size: contain;
+  background-size: cover;
   background-image: url(https://i.ytimg.com/an_webp/PdKqMj1_fGM/mqdefault_6s.webp?du=3000&sqp=CI2c4L8G&rs=AOn4CLCNfAhvl9jzfRe0MoytpPAIb2dfuA);
 }
 
@@ -536,7 +536,8 @@ body:not(.sidebar-hidden) {
   overflow: hidden;
 }
 
-.Icone {
+
+.Icone{
   border-style: solid;
   height: 35px;
   width: 35px;
@@ -546,16 +547,16 @@ body:not(.sidebar-hidden) {
   border-radius: 200px;
 }
 
-.Descricao {
+.Descricao{
   color: #000;
   text-decoration: none;
   width: 50%;
   padding: 10px;
 }
 
-.Descricao2 {
+.DescricaoLink{
   color: #000;
-  border-color: #000;
+  border-color: #ddd;
   border-width: 1.7px;
   border-style: solid;
   height: 100px;
@@ -567,13 +568,143 @@ body:not(.sidebar-hidden) {
   margin-right: 2px;
 }
 
-.Descricao3 {
+.DescricaoAjuste{
   display: flex;
-  align-items: center;
+  align-items: center; 
+}
 
+.Inscritos{
+  font-size: small;
+}
+
+.Inscriçao{
+  color: #ddd;
+  background-color: #000;
+  border-radius: 50px;
+  border-style: solid;
+  height: 40px;
+  width: 100px;
 
 }
 
-.Inscritos {
-  font-size: small;
+.Inscriçao:active{
+  background-color: #282828;
+}
+
+.Inscriçao:visited{
+  color: #000;
+  background-color: #d3d3d3;
+}
+
+.like{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  border-style: none;
+  height: 40px;
+  width: 110px;
+}
+
+.like:active{
+  background-color: #d3d3d3;
+}
+
+
+.like:visited{
+  background-color: #000;
+}
+.like2{
+  text-align: center;
+  border-radius: 5px;
+  border-style: none;
+  height: 40px;
+  width: 50px;
+}
+
+.like2:active{
+  background-color: #d3d3d3;
+}
+
+.like2:visited{
+  background-color: #000;
+}
+
+.Compartilhar{
+  border-radius: 50px;
+  border-style: solid;
+  height: 40px;
+  width: 100px;
+}
+.Compartilhar:active{
+  background-color: #d3d3d3;
+}
+
+.DescricaoConteine{
+  list-style-type: none;
+  display: flex;
+  margin-right: 200px;
+  gap: 30px;
+
+}
+
+.resposta{
+  text-align: center;
+  border-style: none;
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+
+}
+
+.resposta:active{
+  background-color: #d3d3d3;
+}
+
+.resposta:visited{
+  background-color: #000;
+}
+
+.perfil{
+  border-style: solid;
+  height: 35px;
+  width: 35px;
+  border-width: 0px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 200px;
+
+}
+
+.comenta{
+  border-style: none;
+  border-bottom: 1px solid gray;
+  height: 30px;
+  width: 700px;
+
+}
+
+.comment{
+  display:flex;
+  gap: 10px;
+  margin-top: 10px;
+  
+}
+
+.textocomment{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnComment{
+  display: flex;
+  align-items: center;
+}
+
+.video-description{
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  border-radius: 10px;
 }
